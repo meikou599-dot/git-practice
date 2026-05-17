@@ -26,6 +26,7 @@ public class RevPolishNotationCalc {
 
         if (stack.size()==1) {
             System.out.println("答え：" +stack.pop());
+            System.out.println("計算終了");
         } else {
             System.out.println("エラー：式が正しくありません。");
         }
