@@ -6,6 +6,7 @@ public class RevPolishNotationCalc {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("逆ポーランド記法の式を入力してください：");
+        System.out.println("計算開始！");
         String input = scanner.nextLine();
         scanner.close();
 
